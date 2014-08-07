@@ -48,7 +48,7 @@ describe Person do
       @result = Person.merge(@winner, @loser)
     end
     
-    it "should merge in the loser's email" do
+    it "should merge in the loser's email" do 
       @result.email.should eq @loser.email
     end
   end
